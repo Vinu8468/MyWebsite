@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<!--This tells the browser that the document follows HTML5 standards-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!--to ensure it supports all charactors-->
+        <meta name="author" content="Vineeth Devadiga"> <!--says its a good practice to label the autor-->
+        <meta name="description" content="Personal homepage of Vineeth Devadiga"> <!--and the discription of the webpage-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vineeth Devadiga - Home</title><!--title that is shown on the browser-->
+        <style>
+            body {background-color: #fcf9d9;/*Page background and default font and this is another way to comment*/
+            font-family: Verdana, sans-serif;} 
+            P {color:#333333;
+            text-align: justify;}
+        </style><!--2nd type of styling: Internal CSS-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style="color: maroon; text-align:center;"> <!--1st type of styling Inline CSS-->
+            Welcome to my Homepage
+        </h1> <!--h1 means the main heading-->
+        <p style="font-size: 18px; font-family:'Courier New', Courier, monospace">
+           <b>This is my personal homepage created as part of learning HTML.</b><br>
+           <b>I am exploring web development one step at a time.</b>
+        </p>
+        <!-- Link to another webpage(and which opens in new tab)-->
+        <p>
+            <a href="about.html" target="_blank"><!--the _blank forces the browser to open a new tab/window-->
+                Click here to know more about me
+            </a>
+        </p>
+        <p>
+            I am <strong>Biotechnology graduate</strong> currently persuing my masters in <b>Big Data Biology</b> at IBAB and My interests are in <em>Calisthenics</em>, <em>endurance training</em>, and <b>Graphic design</b> among many more.
+            <br>
+            This website is part of my <u>HTML learning journey</u>.
+        </p>
+        
+        <img src="images/main_profile_photo.jpg"
+             alt="Main Page Photo taken at ComicCon BLR 25"
+             height="480"
+             width="300"
+             style="float: left;">
+        <!--remember to add relative path not the absolute path-->
+        <P>
+            <small>Note: This page is under continuous development.</small>
+        </P>
+    </body>
+</html>
+

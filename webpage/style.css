@@ -1,0 +1,11 @@
+/*Main heading styling*/
+h1 {
+    color:darkolivegreen;
+    text-transform: uppercase;
+}
+/*Image styling*/
+img {
+     border: 2px solid tomato;
+     padding: 5px;
+     /*this is the 3rd way of styling : External CSS*/
+} 
