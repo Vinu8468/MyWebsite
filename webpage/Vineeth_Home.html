@@ -10,16 +10,25 @@
         <title>Vineeth Devadiga - Home</title><!--title that is shown on the browser-->
         <style>
             body {background-color: #fcf9d9;/*Page background and default font and this is another way to comment*/
-            font-family: Verdana, sans-serif;} 
-            P {color:#333333;
+                  font-family: Verdana, sans-serif;} 
+            p {color:#333333;
             text-align: justify;}
         </style><!--2nd type of styling: Internal CSS-->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 style="color: maroon; text-align:center;"> <!--1st type of styling Inline CSS-->
-            Welcome to my Homepage
-        </h1> <!--h1 means the main heading-->
+        <p>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#profile">Profile</a>
+            <a href="#note">Note</a>
+        </p>
+        <div id="home">
+            <h1 style="color: maroon; text-align:center;"> <!--1st type of styling Inline CSS-->
+                   Welcome to my Homepage
+            </h1> <!--h1 means the main heading-->
+        </div>
+       
         <p style="font-size: 18px; font-family:'Courier New', Courier, monospace">
            <b>This is my personal homepage created as part of learning HTML.</b><br>
            <b>I am exploring web development one step at a time.</b>
@@ -30,21 +39,86 @@
                 Click here to know more about me
             </a>
         </p>
-        <p>
-            I am <strong>Biotechnology graduate</strong> currently persuing my masters in <b>Big Data Biology</b> at IBAB and My interests are in <em>Calisthenics</em>, <em>endurance training</em>, and <b>Graphic design</b> among many more.
-            <br>
-            This website is part of my <u>HTML learning journey</u>.
-        </p>
-        
-        <img src="images/main_profile_photo.jpg"
-             alt="Main Page Photo taken at ComicCon BLR 25"
-             height="480"
-             width="300"
-             style="float: left;">
-        <!--remember to add relative path not the absolute path-->
-        <P>
-            <small>Note: This page is under continuous development.</small>
-        </P>
+        <div id="about">
+            <p>
+               I am <strong>Biotechnology graduate</strong> currently persuing my masters in <b>Big Data Biology</b> at IBAB and My interests are in <em>Calisthenics</em>, <em>endurance training</em>, and <em>Graphic design</em> among many more.
+               <br>
+               This website is part of my <u><b>HTML</b> learning journey</u>.
+            </p>
+
+        </div>
+
+        <div id="profile">
+            <img src="images/main_profile_photo.jpg"
+                alt="Main Page Photo taken at ComicCon BLR 25"
+                height="480"
+                width="300"
+                style="float: left;">
+            <!--remember to add relative path not the absolute path-->
+        </div>
+        <div id="note">
+            <p>
+                <small>Note: This page is under continuous development.</small>
+            </p>
+        </div>
+        <div id="education">
+            <h5>Education ,interests & Skills</h5>
+        </div>
+        <table border="1" cellpadding="20" cellspacing="5">
+                 <tr>
+                    <th>Category</th>
+                    <th>Field</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>Education</td>
+                    <td>B.Sc(Hons.) Biotechnology</td>
+                    <td>Completed</td>
+                </tr>
+                
+                <tr>
+                    <td>Education</td>
+                    <td>M.Sc. Big Data Biology</td>
+                    <td>Ongoing</td>
+                </tr>
+                
+                <tr>
+                    <td>Skill</td>
+                    <td>Calisthenics</td>
+                    <td>Intermediate</td>
+                </tr>
+
+                <tr>
+                    <td>Skill</td>
+                    <td>Graphic Design</td>
+                    <td>Intermediate</td>
+                </tr>
+        </table>
+        <div id="interests-list">
+            <h4>Core Interests</h4>
+            <ul>
+                <li>Biotechnology</li>
+                <li>Calisthenics & Streetlifting</li>
+                <li>Endurance Running</li>
+                <li>Graphic Design</li>
+                <li>Numismatics</li>
+                <li>Cooking</li>
+                <li>Urban Gardening</li>
+            </ul>
+        </div>
+        <div id="learning-roadmap">
+            <h4>Web Development Learning Roadmap</h4>
+
+            <ol>
+                <li>Learn HTML structure and semantics</li>
+                <li>Understand CSS styling and layout</li>
+                <li>Practice responsive design</li>
+                <li>Use JavaScript for basic interactivity</li>
+                <li>Build and deploy a personal portfolio website</li>
+            </ol>
+        </div>
+
     </body>
 </html>
 

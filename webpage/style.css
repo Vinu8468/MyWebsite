@@ -9,3 +9,49 @@ img {
      padding: 5px;
      /*this is the 3rd way of styling : External CSS*/
 } 
+/*this is to style the Home section*/
+#home {
+    padding: 30px;
+    background-color: orange;
+    text-align: center;
+}
+/*this is to style the About section*/
+#about {
+    padding: 30px;
+    background-color: lightcyan;
+    border-left: 5px solid darkgoldenrod;
+}
+/*this is to style the profile section*/
+#profile {
+    padding: 150px;
+    background-color: burlywood ;
+}
+/*this is to style the note section*/
+#note {
+    padding: 20px;
+    background-color: silver;
+    text-align: center;
+}
+/*adding margin */
+#education table {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+}
+/*just trying how it might look*/
+#interests-list,
+#learning-roadmap {
+    padding: 30px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#interests-list ul {
+    list-style-type: square;
+}
+
+#learning-roadmap ol {
+    list-style-type: decimal;
+    font-weight: 500;
+}
+ 
